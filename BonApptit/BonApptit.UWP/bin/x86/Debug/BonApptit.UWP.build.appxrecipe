@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>L01M06</Machine>
+    <WindowsUser>aluno</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=9d7f3ecd-e18a-4388-a19f-b01cbcc9ea45</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\BonApptit.UWP.exe">
+      <PackagePath>entrypoint\BonApptit.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.data.protection\0.21.1\lib\netstandard2.0\Carbon.Data.Protection.dll">
+      <PackagePath>Carbon.Data.Protection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.json\1.9.0\lib\netstandard2.0\Carbon.Json.dll">
+      <PackagePath>Carbon.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.packaging\1.33.0\lib\netstandard2.0\Carbon.Packaging.dll">
+      <PackagePath>Carbon.Packaging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.storage\1.19.0\lib\netstandard2.0\Carbon.Storage.dll">
+      <PackagePath>Carbon.Storage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.versioncontrol\1.9.2\lib\netstandard2.0\Carbon.VersionControl.dll">
+      <PackagePath>Carbon.VersionControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\carbon.versioning\1.6.0\lib\netstandard2.0\Carbon.Versioning.dll">
+      <PackagePath>Carbon.Versioning.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\github\1.14.2\lib\netstandard2.0\GitHub.dll">
+      <PackagePath>GitHub.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\rg.plugins.popup\1.1.5.188\lib\uap10.0\Rg.Plugins.Popup.UWP.dll">
+      <PackagePath>Rg.Plugins.Popup.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\rg.plugins.popup\1.1.5.188\lib\uap10.0\Rg.Plugins.Popup.dll">
+      <PackagePath>Rg.Plugins.Popup.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlite-net-pcl\1.5.231\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitenetextensions\2.1.0\lib\netstandard1.1\SQLiteNetExtensions.dll">
+      <PackagePath>SQLiteNetExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\system.text.encodings.web\4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit\bin\Debug\netstandard2.0\BonApptit.dll">
+      <PackagePath>BonApptit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\background.scale-400.png">
+      <PackagePath>background.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_adicionais.png">
+      <PackagePath>btn_adicionais.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_adicionar.png">
+      <PackagePath>btn_adicionar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_avancar.png">
+      <PackagePath>btn_avancar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_bebidas.png">
+      <PackagePath>btn_bebidas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_confirmar.png">
+      <PackagePath>btn_confirmar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_excluir.png">
+      <PackagePath>btn_excluir.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_excpedido.png">
+      <PackagePath>btn_excpedido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_finalizar.png">
+      <PackagePath>btn_finalizar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_iniciar.png">
+      <PackagePath>btn_iniciar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_lanches.png">
+      <PackagePath>btn_lanches.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_novopedido.png">
+      <PackagePath>btn_novopedido.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_ok.png">
+      <PackagePath>btn_ok.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_porcoes.png">
+      <PackagePath>btn_porcoes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_sobremesas.png">
+      <PackagePath>btn_sobremesas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\btn_voltar.png">
+      <PackagePath>btn_voltar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\cozinheiro.png">
+      <PackagePath>cozinheiro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Icone.png">
+      <PackagePath>Icone.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\informe_seu_nome.png">
+      <PackagePath>informe_seu_nome.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\logo.png">
+      <PackagePath>logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\NAO.png">
+      <PackagePath>NAO.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\SIM.png">
+      <PackagePath>SIM.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Barbershop in Thailand.ttf">
+      <PackagePath>Assets\Barbershop in Thailand.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Phenomena-Black.ttf">
+      <PackagePath>Assets\Phenomena-Black.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\Assets\Sansation_Bold_Italic.ttf">
+      <PackagePath>Assets\Sansation_Bold_Italic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\BonApptit.UWP.xr.xml">
+      <PackagePath>BonApptit.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\.nuget\packages\xamarin.forms\4.2.0.709249\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aluno.ETECPAOF\Documents\git\BonApptit\BonApptit\BonApptit.UWP\bin\x86\Debug\Core\BonApptit.UWP.exe">
+      <PackagePath>BonApptit.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\aluno.ETECPAOF\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27023.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27023.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
